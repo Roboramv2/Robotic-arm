@@ -1,7 +1,7 @@
 # Theoretical work for the robotic arm
 ***
 
-## Initial ideas:
+## Initial ideas for humanoid arm:
 * general points to build on:
     * internal wiring
     * battery housed in forearm
@@ -23,3 +23,10 @@
   * looped string:
     CON: complex to setup,, takes some tries to get the servos sit right with the finger angles. Internal tubes needed.
     PRO: increased force. there is no opposing spring. (as a side note: this would mean we can make a weird but super cool improved version of our hand, we can make the fingers go back too, as in there is no distinction between palm and back of the hand)
+
+### Conclusion for humanoid arm:
+Need precise cut casings for components. IE 3d Printed stuff necessary. This idea is put aside for now.
+
+## Ideas about 3 finger arm:
+Using foamboard casings for everything. String use is minimised, heavy cutdown on number of servos.
+Routing for strings broken at joints to facilitate bending. Similar to humanoid arm, two nema17 motors are used as base joints, one for 360 degree rotation and another for up down motion.
