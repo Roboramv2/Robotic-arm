@@ -1,6 +1,17 @@
 # Theoretical work for the robotic arm
 ***
 
+## Ideas about 3 finger arm:
+Using foamboard casings for everything. String use is minimised, heavy cutdown on number of servos.
+Routing for strings broken at joints to facilitate bending. Similar to humanoid arm, two nema17 motors are used as base joints, one for 360 degree rotation and another for up down motion.
+
+Voltage divider is constucted in a similar fashion to my glove project, but this time it is made with much better materials and casings. Soldering for internal connections and hot glur for the casings and external wirings. two 220 ohm resistors in series for 440 ohms, and a 220 with a 330 for 550 ohms. divider can provide close to 5 volts in two ways, both useful for different scenarios:
+* From a 12 Volt source, if we use the voltage divider with the 440 ohm side grounded, we obtain 5.3 volts well within the operating range of sg90 motors.
+* From a 9 Volt source, if we use the voltage divider with the 550 ohm side grounded, we obtain exactly 5 volts, again in the operating range of the motors.
+
+We use the first mode for more than 4 motors (current capabilities higher in 12V battery). We use the second mode for less than 4 motors (9V battery current drawn is low).
+
+***
 ## Initial ideas for humanoid arm:
 * general points to build on:
     * internal wiring
@@ -26,7 +37,3 @@
 
 ### Conclusion for humanoid arm:
 Need precise cut casings for components. IE 3d Printed stuff necessary. This idea is put aside for now.
-
-## Ideas about 3 finger arm:
-Using foamboard casings for everything. String use is minimised, heavy cutdown on number of servos.
-Routing for strings broken at joints to facilitate bending. Similar to humanoid arm, two nema17 motors are used as base joints, one for 360 degree rotation and another for up down motion.
