@@ -11,6 +11,10 @@ Voltage divider is constucted in a similar fashion to my glove project, but this
 
 We use the first mode for more than 4 motors (current capabilities higher in 12V battery). We use the second mode for less than 4 motors (9V battery current drawn is low).
 
+Strings pulled through plastic tubes with break at joint to facilitate bends. Gripper ends made of cardboard, and string ends are bundled inside the tops and glued in. String tension optimal when lower head section servos are at 120 degrees as opposed to 180 degrees as thought initially. 120 to 70 rotation marks the pull in when the fingers are splayed. 100 to 50* marks the same when the fingers are closed. (* to be tested)
+
+Note for next time: design a circular headbase plate. More regularity allows for better positioning.
+
 ***
 ## Initial ideas for humanoid arm:
 * general points to build on:
