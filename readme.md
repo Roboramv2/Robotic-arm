@@ -18,11 +18,11 @@ Voltage Divider Circuit
 
 Grippers strung up
 
-<img src="./3_progress/3fgripperadded1.jpg" width="200"/><img src="./3_progress/3fgripperadded2.jpg" width="200"/>
+<img src="./3_progress/3fgripperadded1.jpg" width="200"/><img src="./3_progress/3fgripperadded3.jpg" width="200"/><img src="./3_progress/3fgripperadded2.jpg" width="200"/>
 
 Arm length constructed
 
-<img src="./3_progress/3fhand1.jpeg" width="200"/><img src="./3_progress/3fhand2.jpeg" width="200"/>
+<img src="./3_progress/3fhand1.jpeg" width="200"/><img src="./3_progress/3fhand2.jpeg" width="172"/><img src="./3_progress/3fhand3.jpeg" width="200"/>
 
 ### Code:
 * calibrate: arduino code to setup individual motors to an angle of 90 degrees.
