@@ -9,14 +9,14 @@ void setup() {
 }
 
 void loop(){
-  for(int i=0; i<90; i++){
+  for(int i=0; i<65; i++){
    mid1.write(180-i);
    mid2.write(i);
-   delay(20);
+   delay(15);
   }
-  for(int i=0; i<90; i++){
-   mid1.write(90+i);
-   mid2.write(90-i);
-   delay(20);
+  for(int i=0; i<65; i++){
+   mid1.write(115+i);
+   mid2.write(65-i);
+   delay(15);
   }
 }
