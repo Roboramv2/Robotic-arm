@@ -15,7 +15,7 @@ Strings pulled through plastic tubes with break at joint to facilitate bends. Gr
 
 Mapping the parameters within the movement region is done manually. The working values I have noted down after experimenting are given here. For fingers: open min of 60 to 70 degrees, close max of 100 to 120* degrees, and a delay factor of 20 to 30* milliseconds. For grippers: open max of 120 to 130 degrees, close min of 50 to 60* degrees, and a delay factor of 5 to 10 milliseconds. (* to be tested)
 
-To match the weight shift from the forward bend of arm, place heavy components (like the lipo battery) behind the arm
+To match the weight shift from the forward bend of arm, place heavy components (like the lipo battery) behind the arm. The elbow is implemented with dual sg90 servos operated simultaneously. This unexpectedly lead to the hands inability to raise itself up against gravity. To help it along, we have to confine the working region to around 60 to 70 degrees away from the starting position, as well as provide it some help in moving up. We do the latter with the use of springs and rubber bands that oppose the forward motion, and thereby helps the backward motion. A delay of 15 milliseconds seems optimal for the elbow.
 
 Note for next time: design a circular headbase plate. More regularity allows for better positioning.
 
