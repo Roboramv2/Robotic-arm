@@ -5,13 +5,17 @@
 Using foamboard casings for everything. String use is minimised, heavy cutdown on number of servos.
 Routing for strings broken at joints to facilitate bending. Similar to humanoid arm, two nema17 motors are used as base joints, one for 360 degree rotation and another for up down motion.
 
-Voltage divider is constucted in a similar fashion to my glove project, but this time it is made with much better materials and casings. Soldering for internal connections and hot glur for the casings and external wirings. two 220 ohm resistors in series for 440 ohms, and a 220 with a 330 for 550 ohms. divider can provide close to 5 volts in two ways, both useful for different scenarios:
+Voltage divider is constucted in a similar fashion to my [glove project](https://github.com/Roboramv2/Command-gloves), but this time it is made with much better materials and casings. Soldering for internal connections and hot glur for the casings and external wirings. two 220 ohm resistors in series for 440 ohms, and a 220 with a 330 for 550 ohms. divider can provide close to 5 volts in two ways, both useful for different scenarios:
 * From a 12 Volt source, if we use the voltage divider with the 440 ohm side grounded, we obtain 5.3 volts well within the operating range of sg90 motors.
 * From a 9 Volt source, if we use the voltage divider with the 550 ohm side grounded, we obtain exactly 5 volts, again in the operating range of the motors.
 
 We use the first mode for more than 4 motors (current capabilities higher in 12V battery). We use the second mode for less than 4 motors (9V battery current drawn is low).
 
-Strings pulled through plastic tubes with break at joint to facilitate bends. Gripper ends made of cardboard, and string ends are bundled inside the tops and glued in. String tension optimal when lower head section servos are at 120 degrees as opposed to 180 degrees as thought initially. 120 to 70 rotation marks the pull in when the fingers are splayed. 100 to 50* marks the same when the fingers are closed. (* to be tested)
+Strings pulled through plastic tubes with break at joint to facilitate bends. Gripper ends made of cardboard, and string ends are bundled inside the tops and glued in. String tension optimal when lower head section servos are at 120 degrees as opposed to 180 degrees as thought initially.
+
+Mapping the parameters within the movement region is done manually. The working values I have noted down after experimenting are given here. For fingers: open min of 60 to 70 degrees, close max of 100 to 120* degrees, and a delay factor of 20 to 30* milliseconds. For grippers: open max of 120 to 130 degrees, close min of 50 to 60* degrees, and a delay factor of 5 to 10 milliseconds. (* to be tested)
+
+To match the weight shift from the forward bend of arm, place heavy components (like the lipo battery) behind the arm
 
 Note for next time: design a circular headbase plate. More regularity allows for better positioning.
 
