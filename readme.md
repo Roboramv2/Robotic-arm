@@ -15,6 +15,7 @@ Robotic arm with two nema 17 motors in the base to facilitate 360 degree rotatio
 |Voltage Divider Circuit|<img src="./3_progress/voltage3.jpg" width="200"/>|
 |Grippers|<img src="./3_progress/3fgripperadded2.jpg" width="200"/>|
 |Upper Arm|<img src="./3_progress/3fhand3.jpeg" width="200"/>|
+|Lower Arm|<img src="./3_progress/3flowerarm2.jpg" width="200"/>|
 
 ### Code:
 * calibrate: arduino code to setup individual motors to an angle of 90 degrees.
