@@ -29,7 +29,7 @@ Arm length constructed
 * test1: a halfway test to check the performance of the lower sections of each finger.
 * test2: test to check performance of all fingers imultaneously using voltage divider and 9V battery. Showcases grip.
 * test3: test for controlling grippers using single control pin with fixed finger positions. 
-
+* test4: test for entire upper arm including fingers and grippers simultaneously.
 ## Humanoid robotic arm:
 
 As mentioned in [theory](https://github.com/Roboramv2/Robotic-arm/blob/main/theory.md), this idea has been kept aside for later when I have access to a 3D printer service. For reasons as to why, and for detailed plans concerning the arm, check [theory](https://github.com/Roboramv2/Robotic-arm/blob/main/theory.md).
