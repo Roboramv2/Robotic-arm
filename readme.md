@@ -24,6 +24,7 @@ Robotic arm with two nema 17 motors in the base to facilitate 360 degree rotatio
 * test3: test for controlling grippers using single control pin with fixed finger positions. 
 * test4: test for entire upper arm including fingers and grippers simultaneously.
 * test5: test movement of elbow joint consisting of two sg90's.
+* test6: full showcase of fingers, grippers and elbow.
 
 ## Humanoid robotic arm:
 
