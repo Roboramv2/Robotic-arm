@@ -17,7 +17,11 @@ Mapping the parameters within the movement region is done manually. The working 
 
 To match the weight shift from the forward bend of arm, place heavy components (like the lipo battery) behind the arm. The elbow is implemented with dual sg90 servos operated simultaneously. This unexpectedly lead to the hands inability to raise itself up against gravity. To help it along, we have to confine the working region to around 60 to 70 degrees away from the starting position, as well as provide it some help in moving up. We do the latter with the use of springs and rubber bands that oppose the forward motion, and thereby helps the backward motion. A delay of 15 milliseconds seems optimal for the elbow.
 
-Note for next time: design a circular headbase plate. More regularity allows for better positioning.
+For the base, the initial dual degree rotation has been scrapped due to requirement of both my nema17 motors for one direction itself. Decided to use gyro521 for balancing of base angle as per user command. This complicates things and means that we need to use two controller boards and not one. One board (the arduino mini) will be used to gather bluetooth data, sense gyro values, and control the nema17 motors. The other board(the arduino uno), will be used to collect reduced information from arduino mini and establish control of the 8x SG90 motors in the arm. 
+
+Note: 
+* design a circular headbase plate. More regularity allows for better positioning.
+* for the midjoint spring system, need a better clamp mechanism than just hot glue and plates.
 
 ***
 ## Initial ideas for humanoid arm:
