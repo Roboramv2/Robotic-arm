@@ -5,7 +5,7 @@
 Robotic arm with two nema 17 motors in the base to facilitate 360 degree rotation as well as up down motion. Midway joint enables the up down motion to have a controllability in an additional forward backward axis. The head has six SG90 servo motors, three of which directly control the lower section of the fingers. The other three controls an upper gripper section with the use of strings that pass internally.
 
 ### Plans:
-<img src="./2_drawings/3fbase.jpg" width="250"/><img src="./2_drawings/3fcasing.jpg" width="132"/><img src="./2_drawings/voltagedivider.jpg" width="292"/>
+<img src="./2_drawings/3ffinalplan.jpg" width="350"/>
 
 ### Construction:
 
