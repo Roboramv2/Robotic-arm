@@ -2,6 +2,9 @@
 ***
 
 ## Ideas about 3 finger arm:
+
+<img src="./2_drawings/3fbase.jpg" width="250"/><img src="./2_drawings/3fcasing.jpg" width="132"/><img src="./2_drawings/voltagedivider.jpg" width="292"/>
+
 Using foamboard casings for everything. String use is minimised, heavy cutdown on number of servos.
 Routing for strings broken at joints to facilitate bending. Similar to humanoid arm, two nema17 motors are used as base joints, one for 360 degree rotation and another for up down motion.
 
