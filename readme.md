@@ -2,7 +2,7 @@
 
 ## 3-fingered robotic arm:
 
-Robotic arm with two nema 17 motors in the base to facilitate powerful self-balancing capabilities enabled by gyro521 module. Midway joint consisting of two sg90 servos enables higher controllability of the up down motion, such as maintaing eye level while changing altitude. The head has six SG90 servo motors, three of which directly control the lower section of the fingers. The other three controls an upper gripper section with the use of strings that pass internally.
+Robotic arm with two nema 17 motors in the base to facilitate powerful self-balancing capabilities enabled by gyro521 module. Midway joint consisting of two sg90 servos enables higher controllability of the up down motion, such as maintaining eye level while changing altitude. The head has six SG90 servo motors, three of which directly control the lower section of the fingers. The other three controls an upper gripper section with the use of strings that pass internally.
 
 ### Plans:
 <img src="./2_drawings/3ffinalplan.jpg" width="350"/>
